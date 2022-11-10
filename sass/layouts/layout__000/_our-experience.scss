@@ -1,0 +1,40 @@
+.our-experience {
+    margin-top: 106px;
+    display: grid;
+    gap: 54px;
+
+    h3 {
+        text-align: center;
+    }
+
+    .text {
+        height: 84px;
+        padding: 14px 50px;
+    }
+
+    .container:nth-child(2) .text {
+        padding: 6px 50px;
+    }
+}
+
+.our-experience {
+    .container {
+        background: $whiteTransparentColor;
+        border-radius: 20px;
+        width: 84vw;
+
+        h6 {
+            font-size: 25px;
+            color: $whiteColor;
+            text-align: center;
+            line-height: 1;
+            height: 84px;
+        }
+
+        img {
+            border-bottom-left-radius: 20px;
+            border-bottom-right-radius: 20px;
+            width: inherit;
+        }
+    }
+}

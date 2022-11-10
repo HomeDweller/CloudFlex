@@ -1,0 +1,34 @@
+footer {
+    background-color: $lessTransparentWhiteColor;
+    position: relative;
+    height: 105px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    color: $whiteColor;
+
+    a {
+        color: $whiteColor;
+        font-size: 22px;
+        line-height: 1.36;
+        margin-right: 54px;
+    }
+
+    span {
+        font-size: 14px;
+        line-height: 2.14;
+        font-family: 'futura_ptbook';
+    }
+}
+
+.social {
+    position: absolute;
+    top: -50px;
+    right: 10px;
+
+    a:not(:last-child) {
+        margin-right: 44px;
+    }
+}

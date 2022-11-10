@@ -1,0 +1,90 @@
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
+* {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+    border-radius: none;
+    cursor: pointer;
+}
+
+a:focus,
+a:active {
+    outline: none;
+}
+
+li {
+    list-style: none;
+}
+
+
+body {
+    background-image: radial-gradient(circle at top, #678FF2 80%, rgba(255, 255, 255, 0.15)),
+        radial-gradient(circle at bottom, #678FF2 80%, rgba(255, 255, 255, 0.15));
+}
+
+main>section {
+    padding: 0 8vw;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 0.5;
+    color: $whiteColor;
+    font-family: $fontFuturaptMedium;
+}
+
+h5 {
+    font-family: $fontFuturaptMedium;
+    font-size: 25px;
+    line-height: 1.2;
+    color: $whiteColor;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 22px;
+    line-height: 1.36;
+    color: $whiteColor;
+    font-family: $fontFuturaptMedium;
+}
+
+.icon {
+    width: 27px;
+    height: 29px;
+    fill: $whiteColor;
+}
+
+button {
+    font-family: $fontFuturaptMedium;
+    background-color: $blackColor;
+    color: $whiteColor;
+    font-size: 17px;
+    line-height: 1.5;
+    border-radius: 90px;
+    border: 1px solid $blackColor;
+
+}

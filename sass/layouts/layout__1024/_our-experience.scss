@@ -1,0 +1,27 @@
+.our-experience {
+    display: grid;
+    grid-template-columns: 305px 305px 305px;
+    gap: 20px;
+    padding: 0 4vw;
+
+    h3 {
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .text {
+        height: 84px;
+        padding: 14px 50px;
+    }
+
+    .container:nth-child(2) .text {
+        padding: 6px 50px;
+    }
+}
+
+.our-experience .container {
+
+    width: 305px;
+
+
+}

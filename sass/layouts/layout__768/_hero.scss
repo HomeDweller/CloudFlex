@@ -1,0 +1,37 @@
+.hero .container button {
+    width: 52vw;
+
+}
+
+
+
+h1 {
+    font-size: 90px;
+    line-height: 1;
+}
+
+.cookie {
+    display: flex;
+    width: 62vw;
+    padding: 0;
+    height: unset;
+
+    img {
+        position: absolute;
+        left: -4vw;
+        top: -30px;
+    }
+
+    p {
+        padding: 10px 0 10px 12vw;
+        font-size: 14px;
+
+    }
+}
+
+.accept {
+    padding-top: 0;
+    border-top: 0;
+    border-left: 1px solid $whiteColor;
+
+}

@@ -1,0 +1,36 @@
+.streaming-team {
+    background-image: url("/img/bg-cloud-2.png"), url("/img/bg-cloud-2.png"), url("/img/bg-cloud-2.png"), url("/img/bg-cloud-3.png");
+    background-size: contain, contain, 293px 106px, contain;
+    background-position-x: 72vw, -82vw, 30vw, 60vw;
+    background-position-y: 4vh, 172vh, 292vh, 600vh;
+    background-repeat: no-repeat;
+}
+
+.streaming-team__content {
+    backdrop-filter: blur(20px);
+    padding: 50px 44px;
+    background-color: $whiteTransparentColor;
+    border-radius: 20px;
+    margin-bottom: 190px;
+
+    .text {
+        margin-bottom: 88px;
+    }
+
+    h2 {
+        line-height: 1;
+        margin-bottom: 68px;
+    }
+
+    a {
+        color: $blackColor;
+        font-size: 22px;
+        line-height: 1.36;
+        text-decoration: underline;
+        width: fit-content;
+    }
+}
+
+.text__title {
+    margin-bottom: 12px;
+}

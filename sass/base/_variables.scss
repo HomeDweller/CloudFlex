@@ -1,0 +1,73 @@
+//Colors
+$whiteColor: #FFFFFF;
+$whiteTransparentColor: rgba(255, 255, 255, 0.1);
+$skyBlueColor: #5081ED;
+$lightBlueColor: #678FF2;
+$blackColor: #000000;
+$lessTransparentWhiteColor: rgba(255, 255, 255, 0.15);
+$greyColor: #B4B4B4;
+$blackTransparentColor: rgba(0, 0, 0, 0.1);
+$lessTransparentBhiteColor: rgba(0, 0, 0, 0.5);
+
+//Font family
+$fontFuturaptBold: 'futura_ptbold', sans-serif;
+$fontFuturaptBook: 'futura_ptbook', sans-serif;
+$fontFuturaptDemi: 'futura_ptdemi', sans-serif;
+$fontFuturaptHeavy: 'futura_ptheavy', sans-serif;
+$fontFuturaptLight: 'futura_ptlight', sans-serif;
+$fontFuturaptMedium: 'futura_ptmedium', sans-serif;
+
+@font-face {
+    font-family: 'futura_ptbold';
+    src: url('/fonts/futurapt-bold-webfont.woff2') format('woff2'),
+        url('/fonts/futurapt-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'futura_ptbook';
+    src: url('/fonts/futurapt-book-webfont.woff2') format('woff2'),
+        url('/fonts/futurapt-book-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_ptdemi';
+    src: url('/fonts/futurapt-demi-webfont.woff2') format('woff2'),
+        url('/fonts/futurapt-demi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_ptheavy';
+    src: url('/fonts/futurapt-heavy-webfont.woff2') format('woff2'),
+        url('/fonts/futurapt-heavy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_ptlight';
+    src: url('/fonts/futurapt-light-webfont.woff2') format('woff2'),
+        url('/fonts/futurapt-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'futura_ptmedium';
+    src: url('/fonts/futurapt-medium-webfont.woff2') format('woff2'),
+        url('/fonts/futurapt-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}

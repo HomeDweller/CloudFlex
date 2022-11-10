@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Streaming team</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav__bar">
+                <div class="title">
+                    <h5>Cloud <b>Flex</b> </h5>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <nav class="links" id="links">
+                <a href="/live-streaming.html" class="link"><span>about us</span></a>
+                <a href="#contact" class="link"><span>contact</span></a>
+                <a href="#" class="link"><span><b>covid-19 update</b></span></a>
+                <a href="/home.html">
+                    <svg class="icon">
+                        <use xlink:href="./img/sprite.svg#globe"></use>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main class="streaming-team">
+        <section class="streaming-team__content">
+            <h2>Streaming team</h2>
+            <div class="text">
+                <h5>The Team</h5>
+                <p>
+                    CloudFlex streaming team is a proficient and skilled unit that consists of six members with more
+                    than
+                    two years
+                    of experience in video streaming field. During this time, the team has gained the experience with
+                    various
+                    streaming platforms including Wowza, Elemental / AWS Media Services and Janus WebRTC.
+                    Our developments cover video streaming both from browser and native client systems,
+                    such as handheld devices and PCs.
+                    <br> <br>
+                    From the web standpoint, the team includes a certified Google Cloud Platform professional data
+                    engineer
+                    and seasoned Amazon Web Services specialists. On the mobile side, we have a proficient engineer with
+                    extensive experience in development of scalable and robust handheld systems.
+                </p>
+            </div>
+            <div class="text">
+                <h5 class="text__title">Case №1</h5>
+                <p>Streaming platform based on Wowza services</p>
+                <h5 class="text__title">Technologies</h5>
+                <ul>
+                    <li>On-premise streaming infrastructure, Wowza media services for advanced video processing</li>
+                    <li>Python, MongoDB, JavaScript, React, Wowza</li>
+                </ul>
+            </div>
+            <div class="text">
+                <h5 class="text__title">Case №2</h5>
+                <p>Streaming platform based on AWS Media Services</p>
+                <h5 class="text__title">Description</h5>
+                <a href="#">Serverless Live Streaming case </a>
+                <ul>
+                    <li>On-premise streaming infrastructure, Wowza media services for advanced video processing</li>
+                    <li>Python, MongoDB, JavaScript, React, Wowza</li>
+                </ul>
+            </div>
+            <div class="text">
+                <h5 class="text__title">Case №3</h5>
+                <p>Mobile-based streaming application</p>
+                <br><br>
+                <h5 class="text__title">Description</h5>
+                <a href="#">Live Streaming from mobile case </a>
+                <p>
+                    Streaming Android application is a service that supports video streaming right from client's device.
+                    The main challenge was to develop a platform which remains reliable even despite an unstable
+                    internet connection. As experience had shown the Android platform has a problem with default OMX
+                    codecs
+                    and theirs buffers due to hardware limitations on certain devices. Also challenging was to develop a
+                    solution
+                    which can: manage video rooms and related streams; play the streaming video inside of the
+                    application
+                    remain stable after screen rotation, internet connection errors and etc.
+                </p>
+                <ul>
+                    <li>manage video rooms and related streams; </li>
+                    <li>play the streaming video inside of the application</li>
+                    <li>remain stable after screen rotation, internet connection errors and etc.</li>
+                </ul>
+                <h5 class="text__title">Technologies</h5>
+                <ul>
+                    <li>New Android architecture component for fresh UI features and intuitive UX</li>
+                    <li>Model-View-ViewModel as an architectural approach, and newest android approaches </li>
+                    <li>Reactive frameworks for parallelism and smooth flow</li>
+                </ul>
+            </div>
+        </section>
+        <section class="get-started" id="contact">
+            <form action="submit" id="form">
+                <h5>Ready to get started? Drop us a line!</h5>
+                <div class="inputs">
+                    <div class="input-control" id="name-control">
+                        <input type="text" name="Name" id="name" class="name" placeholder="Your name">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control" id="email-control">
+                        <input type="text" name="Email" id="email" class="email" placeholder="Your Email">
+                        <div class="error"></div>
+                    </div>
+                    <input type="text" class="request" placeholder="What we can do for you?">
+                    <button class="submit" id="submit" onclick="validityCheck()">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script defer src="/js/script.js"></script>
+</body>
+
+</html>

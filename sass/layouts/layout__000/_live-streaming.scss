@@ -1,0 +1,45 @@
+.live-streaming__content {
+    backdrop-filter: blur(20px);
+    background-color: $whiteTransparentColor;
+    padding: 52px 40px;
+
+    h2 {
+        margin-bottom: 65px;
+        line-height: 1;
+    }
+}
+
+.step {
+    margin-bottom: 58px;
+
+    h5 {
+        margin-bottom: 8px;
+    }
+
+}
+
+ul {
+    margin-top: 40px;
+
+    li {
+        list-style: '- ';
+        font-size: 22px;
+        line-height: 1.36;
+        color: $whiteColor;
+        font-family: $fontFuturaptMedium;
+        margin-bottom: 8px;
+    }
+}
+
+.live-streaming {
+    background-image: url("/img/bg-cloud-2.png"), url("/img/bg-cloud-2.png");
+    background-size: contain, contain, contain;
+    background-position-x: 52vw, -46vw;
+    background-position-y: 41vh, 250vh;
+    background-repeat: no-repeat;
+
+    .get-started {
+        background-position-x: 46vw;
+        background-position-y: 36vh;
+    }
+}

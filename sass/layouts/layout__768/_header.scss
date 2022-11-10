@@ -1,0 +1,52 @@
+.nav {
+    align-items: center;
+}
+
+.title {
+    padding: 1vh 3.7vw 1vh 1vw;
+}
+
+.nav__bar {
+    display: unset;
+    justify-content: unset;
+    align-items: unset;
+    width: fit-content;
+    height: fit-content;
+
+    h3 {
+        height: fit-content;
+        left: unset;
+        top: unset;
+        position: relative;
+
+    }
+
+
+}
+
+.hamburger {
+    display: none;
+}
+
+.links {
+    position: relative;
+    left: 6vw;
+    display: flex;
+    padding: 0;
+    width: fit-content;
+    flex-direction: row;
+    gap: 40px;
+
+    .link {
+        padding: 12px 0 12px;
+    }
+
+    a {
+        padding-top: 8px;
+    }
+
+    a:nth-of-type(3) {
+        border-left: 1px solid $whiteColor;
+        border-right: 1px solid;
+    }
+}

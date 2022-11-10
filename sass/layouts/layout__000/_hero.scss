@@ -1,0 +1,65 @@
+.hero {
+    min-height: 80vh;
+    background-image: url("/img/bg-cloud-1.png");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+
+    .container {
+        padding-top: 82px;
+
+        button {
+            width: 69vw;
+            margin-top: 114px;
+        }
+    }
+}
+
+h1 {
+    font-family: $fontFuturaptBold;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 0.89;
+    color: $blackColor;
+}
+
+.cookie {
+    margin-top: 67px;
+    padding: 16px 7px;
+    width: 84.2vw;
+    height: 140px;
+    background-color: $whiteTransparentColor;
+    border: 0px;
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+
+    img {
+        position: absolute;
+        left: -4vw;
+        top: -30px;
+    }
+
+    p {
+        font-family: $fontFuturaptDemi;
+        color: $blackColor;
+        padding-left: 23.4vw;
+        font-size: 10px;
+        line-height: 1.4;
+        text-transform: uppercase;
+    }
+}
+
+.accept {
+    width: 100%;
+    background: transparent;
+    font-family: $fontFuturaptDemi;
+    text-transform: uppercase;
+    color: $blackColor;
+    font-size: 30px;
+    line-height: 0.47;
+    border: 0;
+    padding-top: 18px;
+    border-top: 1px solid $whiteColor;
+    border-radius: 0;
+}

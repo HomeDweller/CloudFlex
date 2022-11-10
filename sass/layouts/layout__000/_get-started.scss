@@ -1,0 +1,43 @@
+.get-started {
+    padding-bottom: 180px;
+    background-image: url("/img/bg-cloud-3.png");
+    background-position-x: 54vw;
+    background-position-y: 72vh;
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    h5 {
+        font-size: 35px;
+        line-height: 1.14;
+        text-align: center;
+        color: $blackColor;
+        margin-bottom: 20px;
+    }
+}
+
+form {
+    input {
+        width: 84vw;
+        height: 50px;
+        border: 1px solid $lessTransparentBhiteColor;
+        border-radius: 90px;
+        padding: 8px 28px;
+        margin-bottom: 24px;
+    }
+
+    input::placeholder {
+        font-family: $fontFuturaptMedium;
+        font-size: 18px;
+        line-height: 1.67;
+        color: $lessTransparentBhiteColor;
+    }
+
+    button {
+        font-size: 26px;
+        line-height: 1.15;
+        width: 84vw;
+        height: 50px;
+        border: 1px solid $blackTransparentColor;
+        border-radius: 90px;
+    }
+}

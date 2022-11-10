@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudFlex</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="/css/style.css">
+
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav__bar">
+                <div class="title">
+                    <h5>Cloud <b>Flex</b> </h5>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <nav class="links" id="links">
+                <a href="/streaming-team.html" class="link"><span>about us</span></a>
+                <a href="#contact" class="link"><span>contact</span></a>
+                <a href="#" class="link"><span><b>covid-19 update</b></span></a>
+                <a href="#">
+                    <svg class="icon">
+                        <use xlink:href="./img/sprite.svg#globe"></use>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <h1>when performance matters</h1>
+                <button>Start development with us</button>
+            </div>
+            <div class="cookie">
+                <img src="./img/dove.png" alt="Hungry pigeon">
+                <p>
+                    we use cookies to ensure your best experience.
+                    through your continued use of this site you accept this use.
+                    for more information, please see our privacy policy.
+                </p>
+                <button class="accept" onclick="accept()">accept</button>
+            </div>
+        </section>
+        <section class="how-we-work">
+            <h2 class="not-mobile">How we work</h2>
+            <div class="how-we-work__item">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#light-bulb"></use>
+                </svg>
+                <h6>Analysis</h6>
+                <p>
+                    Gathering client's ideas we are happy to help with a technical vision.
+                </p>
+            </div>
+            <div class="how-we-work__item">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#paint-brush"></use>
+                </svg>
+                <h6>Design</h6>
+                <p>
+                    In-depth analysis makes our solutions flexible, scalable and robust.
+                </p>
+            </div>
+            <div class="how-we-work__item">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#html-tag"></use>
+                </svg>
+                <h6>Development</h6>
+                <p>
+                    Using best practices to make reliable, well-documented and easy to maintain system.
+                </p>
+            </div>
+            <div class="how-we-work__item">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#wrench"></use>
+                </svg>
+                <h6>Maintenance
+                </h6>
+                <p>
+                    Gathering client's ideas we are happy to help with a technical vision.
+                </p>
+            </div>
+            <div class="how-we-work__item">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#checkmarks"></use>
+                </svg>
+                <h6>Testing</h6>
+                <p>
+                    Providing best quality
+                    of things developed by us for customers
+                </p>
+            </div>
+            <div class="how-we-work__item">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#integration"></use>
+                </svg>
+                <h6>Integration</h6>
+                <p>
+                    Solutions that go with
+                    the times to improve businesses and give customers best experience
+                </p>
+            </div>
+        </section>
+        <section class="our-ways">
+            <div class="container">
+                <div class="text">
+                    <h3>High Quality</h3>
+                    <p>
+                        We are the leading firm by delivering quality and value to our clients.
+                        All our professionals have huge experience of creating comfortable
+                        high-quality software. We like what we do.
+                    </p>
+                </div>
+                <div class="screenshot"></div>
+            </div>
+            <div class="container">
+                <div class="text">
+                    <h3>Always in touch</h3>
+                    <p>
+                        We are always ready to answer your questions.
+                        You can call us at the weekends and at night.
+                        Also you can have a meeting for personal consultation.
+                    </p>
+                </div>
+                <div class="phone"></div>
+            </div>
+            <div class="container">
+                <div class="text">
+                    <h3>Individual Approach</h3>
+                    <p>
+                        Our company works according to the principle of individual approach to every client.
+                        This method lets us to get success in problems of all levels.
+                    </p>
+                </div>
+                <div class="cactus"></div>
+            </div>
+        </section>
+        <section class="our-experience">
+            <h3>Our experience</h3>
+            <div class="container">
+                <div class="text">
+                    <h6>Serverless Live Streaming</h6>
+                </div>
+                <img src="/img/studio.jpg" alt="Studio">
+            </div>
+            <div class="container">
+                <div class="text">
+                    <h6>Learn about CloudFlex team cases</h6>
+                </div>
+                <img src="/img/team.jpg" alt="Development team">
+            </div>
+            <div class="container">
+                <div class="text">
+                    <h6>Live streaming from mobile</h6>
+                </div>
+                <img src="/img/live-streaming.jpg" alt="Live streaming a concert">
+            </div>
+        </section>
+        <section class="get-started" id="contact">
+            <h5>Ready to get started? Drop us a line!</h5>
+            <form action="submit" id="form">
+                <div class="input-control" id="name-control">
+                    <input type="text" name="Name" id="name" class="name" placeholder="Your name">
+                    <div class="error"></div>
+                </div>
+                <div class="input-control" id="email-control">
+                    <input type="text" name="Email" id="email" class="email" placeholder="Your Email">
+                    <div class="error"></div>
+                </div>
+                <input type="text" class="request" placeholder="What we can do for you?">
+                <button class="submit" id="submit" onclick="validityCheck()">Send</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="info">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <span>© CloudFlex 2019. All Rights Reserved.</span>
+        </div>
+        <div class="social">
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#linkedIn"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#facebook"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#instagram"></use>
+                </svg>
+            </a>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script defer src="/js/script.js"></script>
+</body>
+
+</html>

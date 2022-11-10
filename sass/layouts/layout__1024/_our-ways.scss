@@ -1,0 +1,57 @@
+.our-ways {
+    border-bottom: 1px solid $whiteColor;
+
+    .container {
+        position: relative;
+        margin-top: 54px;
+
+        .text {
+            width: 50vw;
+            text-align: left;
+
+            p {
+                font-size: 22px;
+            }
+        }
+
+    }
+}
+
+.our-ways .container:nth-of-type(1) {
+    height: 505px;
+}
+
+.our-ways .container:nth-of-type(2) {
+    height: 400px;
+    right: -30vw;
+
+    .text {
+        text-align: right;
+    }
+}
+
+.our-ways .container:nth-of-type(3) {
+    height: 300px;
+}
+
+.screenshot {
+    right: -42vw;
+    width: 74vw;
+    top: 20px;
+}
+
+.phone {
+    background-image: url("/img/phone.png");
+    position: absolute;
+    left: -74vw;
+    width: 87vw;
+    top: -250px;
+}
+
+.cactus {
+    background-image: url("/img/cactus.png");
+    position: absolute;
+    right: -10vw;
+    width: 36vw;
+
+}

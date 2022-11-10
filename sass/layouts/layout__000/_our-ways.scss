@@ -1,0 +1,77 @@
+h3 {
+    font-family: $fontFuturaptMedium;
+    font-size: 35px;
+    line-height: 0.4;
+    color: $whiteColor;
+    margin-bottom: 26px;
+}
+
+.our-ways {
+    border-bottom: 1px solid $whiteColor;
+
+    .container {
+        position: relative;
+        margin-top: 54px;
+
+        .text {
+            height: 100%;
+            text-align: left;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.11;
+            color: $whiteColor;
+            margin-bottom: 42px;
+        }
+    }
+}
+
+.our-ways .container:nth-of-type(1) {
+    height: 405px;
+}
+
+.our-ways .container:nth-of-type(2) {
+    height: 540px;
+
+    .text {
+        text-align: right;
+    }
+}
+
+.our-ways .container:nth-of-type(3) {
+    height: 500px;
+}
+
+.screenshot {
+    background-image: url("/img/coding.jpg");
+    position: absolute;
+    right: -20vw;
+    width: 74vw;
+    bottom: 0;
+    height: 222px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.phone {
+    background-image: url("/img/phone-mobile.png");
+    position: absolute;
+    left: -34vw;
+    width: 87vw;
+    bottom: 0;
+    height: 539px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.cactus {
+    background-image: url("/img/cactus-mobile.png");
+    position: absolute;
+    right: 0;
+    width: 70vw;
+    bottom: 0;
+    height: 396px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

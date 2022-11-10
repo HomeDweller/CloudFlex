@@ -1,0 +1,25 @@
+.get-started {
+    padding-bottom: 220px;
+
+    h5 {
+        line-height: 3;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .input-control {
+        width: fit-content;
+    }
+
+    input {
+        width: 44vw;
+    }
+
+    button {
+        width: 44vw;
+    }
+}

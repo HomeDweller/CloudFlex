@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Serverless live streaming</title>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div class="nav__bar">
+                <div class="title">
+                    <h5>Cloud <b>Flex</b> </h5>
+                </div>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+            <nav class="links" id="links">
+                <a href="#" class="link"><span>about us</span></a>
+                <a href="#" class="link"><span>contact</span></a>
+                <a href="#" class="link"><span><b>covid-19 update</b></span></a>
+                <a href="/home.html">
+                    <svg class="icon">
+                        <use xlink:href="./img/sprite.svg#globe"></use>
+                    </svg>
+                </a>
+            </nav>
+        </div>
+    </header>
+    <main class="live-streaming">
+        <section class="live-streaming__content">
+            <h2>Serverless live streaming</h2>
+            <div class="step">
+                <h5>Challenge</h5>
+                <p>
+                    The Video Streaming Platform is a robust and reliable service that supports diverse streaming cases.
+                    The Platform has unpredictable high load processes related to video streaming and processing – idle
+                    periods
+                    alternated with peak loads, that forced the company to keep a large and expensive on-premise
+                    infrastructure. In addition, the solution was hard to maintain and control, which decreased the
+                    general reliability
+                    of the system.
+                </p>
+            </div>
+            <div class="step">
+                <h5>Solution</h5>
+                <p>
+                    Our team has investigated, proposed and implemented a serverless solution based on AWS Media
+                    Services.
+                    This approach offers the following benefits:
+                </p>
+                <ul>
+                    <li>streaming services optimized by the cloud provider for its infrastructure; </li>
+                    <li>on-demand resources, which resulted in overall infrastructure price reduction; </li>
+                    <li>transfer of maintenance to the Amazon team to increase the reliability of the service; </li>
+                    <li>additional features, e.g. DRM encryption, ads and extended converting options. </li>
+                </ul>
+            </div>
+            <div class="step">
+                <h5>The Result</h5>
+                <p>
+                    The Platform becomes a reliable and highly scalable system that allows the business to grow rapidly
+                    without being blocked by technical constraints. In addition, a service development team can focus
+                    on the development of a new functionality instead of spending time on load balancing and
+                    maintenance.
+                </p>
+            </div>
+        </section>
+        <section class="get-started">
+            <form action="submit">
+                <h5>Ready to get started? Drop us a line!</h5>
+                <div class="inputs">
+                    <div class="input-control" id="name-control">
+                        <input type="text" name="Name" id="name" class="name" placeholder="Your name">
+                        <div class="error"></div>
+                    </div>
+                    <div class="input-control" id="email-control">
+                        <input type="text" name="Email" id="email" class="email" placeholder="Your Email">
+                        <div class="error"></div>
+                    </div>
+                    <input type="text" class="request" placeholder="What we can do for you?">
+                    <button class="submit" id="submit" onclick="validityCheck()">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="info">
+            <a href="#">Terms of Use</a>
+            <a href="#">Privacy Policy</a>
+            <span>© CloudFlex 2019. All Rights Reserved.</span>
+        </div>
+        <div class="social">
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#linkedIn"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#facebook"></use>
+                </svg>
+            </a>
+            <a href="#">
+                <svg class="icon">
+                    <use xlink:href="./img/sprite.svg#instagram"></use>
+                </svg>
+            </a>
+        </div>
+    </footer>
+    <script defer src="/js/script.js"></script>
+</body>
+
+</html>
